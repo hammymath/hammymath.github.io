@@ -1,0 +1,37 @@
+{
+  "name": "hammymathclass",
+  "version": "0.1.0",
+  "description": "math website for students",
+  "note": "this setup is adapted from https://github.com/laurmaedje/laurmaedje.github.io",
+  "scripts": {
+    "build": "deno run src/main.tsx",
+    "dev": "deno run src/main.tsx"
+  },
+  "author": {
+    "name": "Kevin Lee",
+    "email": "kevinlulee1@gmail.com"
+  },
+  "homepage": "https://hammymathclass.github.io",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/livereload": "^0.9.5",
+    "@types/markdown-it": "^14.1.2",
+    "@types/markdown-it-footnote": "^3.0.4",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/serve-handler": "^6.1.4",
+    "chokidar": "^3.5.3",
+    "highlight.js": "^11.6.0",
+    "html-react-parser": "^3.0.4",
+    "js-yaml": "^4.1.0",
+    "livereload": "^0.9.3",
+    "markdown-it": "^13.0.1",
+    "markdown-it-footnote": "^3.0.3",
+    "moment": "^2.29.4",
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "feed": "^4.2.2",
+    "serve-handler": "^6.1.5"
+  }
+}
